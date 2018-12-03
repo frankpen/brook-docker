@@ -1,4 +1,4 @@
-#根据brook-v20181212制作Compatible with ios12
+#根据brook-v20181212制作 Compatible with ios12
 FROM golang:alpine as builder
 RUN apk add --update git
 RUN go get github.com/txthinking/brook/cli/brook
